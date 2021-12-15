@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #fb4f93;
+  padding: 0 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.search {
+  background: none;
+  color: #ffff;
+  border: 1px solid #fb4f93;
+  border-radius: 50px;
+  padding: 10px;
+  color: #d3fbd8;
+}
+
+.search:focus {
+  outline: none;
+  border: 1px solid #d3fbd8;
+}
